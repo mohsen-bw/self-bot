@@ -755,7 +755,7 @@ def lineBot(op):
                         nadya.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
                         nadya.sendMessage(to, "Total {} Mention".format(str(len(nama))))          
                 elif text.lower() == 'lurking on':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/tehran")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                     hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -821,7 +821,7 @@ def lineBot(op):
                         nadya.sendMessage(msg.to, "Delete reading point:\n" + readTime)
     
                 elif text.lower() == 'lurking reset':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Tehran")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                     hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -845,7 +845,7 @@ def lineBot(op):
                         nadya.sendMessage(msg.to, "Lurking belum diaktifkan ngapain di reset?")
                         
                 elif text.lower() == 'lurking':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Tehran")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                     hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -2041,7 +2041,7 @@ def lineBot(op):
                     nadya.sendMessage(msg.to, A)
 #==============================================================================#   
                 elif text.lower() == 'kalender':
-                    tz = pytz.timezone("Asia/Makassar")
+                    tz = pytz.timezone("Asia/Tehran")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                     hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
