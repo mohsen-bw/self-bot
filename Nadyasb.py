@@ -76,7 +76,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ mr musa ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ✿✿✿ Mohsen.bw ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -151,7 +151,7 @@ def helpmessage():
                   "╠➥ SearchImage「Search」" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©MUSA  〙"
+                  "╚═〘 Credits By:Mohsen.bw  〙"
     return helpMessage
     
 def helptexttospeech():
@@ -364,7 +364,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "ua68f1a941b69d423fd3516bbea0cd0b3")
+                    nadya.sendContact(to, ")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -390,7 +390,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ua68f1a941b69d423fd3516bbea0cd0b3"
+                        owner = ""
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
