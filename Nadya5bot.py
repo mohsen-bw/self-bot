@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 Credits By: Mohsen.bw  〙"
     return helpMessage
     
 def helptexttospeech():
@@ -408,7 +408,7 @@ def helptranslate():
                        "╠ fil : Filipino" + "\n" + \
                        "╠ he : Hebrew" + "\n" + \
                        "╚══〘 Jangan Typo 〙" + "\n" + "\n\n" + \
-                         "Contoh : tr-en Nadya Cantik"
+                         "Contoh : tr-en Mohsen.bw"
     return helpTranslate
 #==============================================================================#
 def backupData():
@@ -573,7 +573,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -689,7 +689,7 @@ def lineBot(op):
                             nadya.sendMessage(msg.to,"The Ownerlist is empty")
                         else:
                             nadya.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Owner List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠♥ ✿✿✿ Mohsen.bw ✿✿✿ ♥\n╠══✪〘 Owner List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +nadya.getContact(mi_d).displayName + "\n"
                             nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
@@ -740,7 +740,7 @@ def lineBot(op):
                             nadya.sendMessage(msg.to,"The Adminlist is empty")
                         else:
                             nadya.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Admin List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠♥ ✿✿✿ Mohsen.bw ✿✿✿ ♥\n╠══✪〘 Admin List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +nadya.getContact(mi_d).displayName + "\n"
                             nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
